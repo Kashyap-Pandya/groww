@@ -6,10 +6,12 @@ body {
 	background-color: #000300;
 }
 
-.margin {
+.edited {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+	background-color: pink;
 	border-radius: 3px;
+	background-color: #f7fafc;
 	box-shadow: 2px 3px 3px #a9f08b, -2px -3px 3px rgb(0, 223, 154);
 }
 

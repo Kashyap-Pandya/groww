@@ -1,12 +1,12 @@
-const Card = ({ img, h2, p, p1, p2, p3, btn, margin, bg }) => {
-	console.log(margin);
+const Card = ({ img, h2, p, p1, p2, p3, btn, edited, bgTransparent }) => {
+	console.log(bgTransparent);
 	return (
 		<div
-			className={`w-full text-center shadow-xl md:my-0 my-4 flex flex-col p-4 rounded-lg hover:scale-105 border ${margin} ${bg}`}
+			className={`w-full text-center shadow-xl md:my-0 my-4 flex flex-col p-4 rounded-lg hover:scale-105 border ${edited}`}
 		>
 			<img
 				src={img}
-				className='w-[4rem] mx-auto mt-[-3rem] bg-white'
+				className={`w-[4rem] mx-auto mt-[-3rem] ${bgTransparent}`}
 				alt='icon'
 			/>
 			<h2 className='text-2xl font-bold py-8 '>{h2}</h2>

@@ -24,8 +24,8 @@ const Cards = () => {
 					p2='2 Granted User'
 					p3='Send upto 10 GB'
 					btn='dark-btn'
-					bg='bg-[#F0F8FF]'
-					margin='margin'
+					bgTransparent='bg-transparent'
+					edited='edited'
 				/>
 				<Card
 					img={img3}
