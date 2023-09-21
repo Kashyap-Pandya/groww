@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import svg from "../assets/svg.png";
 
 const Nav = () => {
 	const [menuToggle, setMenuToggle] = useState(false);
@@ -7,7 +8,7 @@ const Nav = () => {
 	const handleMenuToggle = () => setMenuToggle(!menuToggle);
 
 	return (
-		<header className=' '>
+		<header className=''>
 			<nav className='w-full flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
 				<h1 className='text-3xl font-bold text-[#00df9a]'>GROWW.</h1>
 				<ul className='uppercase cursor-pointer hidden md:flex'>
@@ -48,6 +49,11 @@ const Nav = () => {
 					</ul>
 				</div>
 			</nav>
+			<img
+				src={svg}
+				className='absolute w-full h-[20%] bottom-0'
+				alt=''
+			/>
 		</header>
 	);
 };
