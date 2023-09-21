@@ -15,7 +15,6 @@ const Cards = () => {
 					p2='1 Granted User'
 					p3='Send upto 2 GB'
 					btn='light-btn'
-					margin='no-margin'
 				/>
 				<Card
 					img={img2}
@@ -36,7 +35,6 @@ const Cards = () => {
 					p2='5 Granted User'
 					p3='Send upto 50 GB'
 					btn='light-btn'
-					margin='no-margin'
 				/>
 			</div>
 		</main>
