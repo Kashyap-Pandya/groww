@@ -1,7 +1,10 @@
 import Analytics from "./Components/Analytics";
+
+import Cards from "./Components/Cards";
 import Hero from "./Components/Hero";
 import Nav from "./Components/Nav";
 import NewsLetter from "./Components/NewsLetter";
+
 
 const App = () => {
 	return (
@@ -10,6 +13,7 @@ const App = () => {
 			<Hero />
 			<Analytics />
 			<NewsLetter />
+			<Cards/>
 		</>
 	);
 };

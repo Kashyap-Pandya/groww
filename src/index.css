@@ -6,6 +6,13 @@ body {
 	background-color: #000300;
 }
 
+.margin {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	border-radius: 3px;
+	box-shadow: 2px 3px 3px #a9f08b, -2px -3px 3px rgb(0, 223, 154);
+}
+
 @layer components {
 	.dark-btn {
 		background-color: black;
