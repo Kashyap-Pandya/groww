@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-// import svg from "../assets/svg.png";
 
 const Nav = () => {
   const [menuToggle, setMenuToggle] = useState(false);
